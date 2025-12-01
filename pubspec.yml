@@ -1,0 +1,44 @@
+name: pdf_comfort_app
+description: A Kindle-like PDF and document reader with comfortable reading experience.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # PDF handling
+  pdf: ^3.10.0
+  pdfx: ^2.5.0
+  
+  # Document handling
+  docx: ^0.3.0
+  
+  # UI and state management
+  provider: ^6.0.0
+  
+  # Storage and persistence
+  shared_preferences: ^2.1.0
+  sqflite: ^2.2.0
+  
+  # Image and OCR
+  image: ^4.0.0
+  google_ml_kit: ^0.13.0
+  
+  # File handling
+  file_picker: ^5.3.0
+  
+  # UI components
+  flutter_slidable: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
